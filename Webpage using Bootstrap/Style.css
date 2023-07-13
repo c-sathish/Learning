@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo img{
+width: 178px;
+height: 25px;
+}
+#header{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 32px;
+    background: #023b6d;
+    display: flex;
+    align-items: center
+}
+.preview-devices ul{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    top: 2px;
+      
+}
+.preview-devices ul li{
+    margin-right: 10px;
+}
+.download{
+    position: absolute;
+    left: 90%;
+    top: 0%;
+}
+nav{
+    margin-top: 29px;
+    margin-left: 0px;
+    background-color: #37517e;
+}
+
+nav .nav-item{
+    margin-right: 0px;
+}
+nav button{
+    white-space: nowrap;
+}
+
+.info{
+    position: relative;
+    top: 500px;
+    left: 188px;
+}
+section h1{
+    font-weight: bolder;
+}
+section p{
+    margin-bottom: 50px;
+    
+}
+.hero{
+    position: relative;
+    top: 300px;
+    left: 20px;
+    
+}
+.hero img{
+  
+        -webkit-animation: mover 2s infinite  alternate;
+        animation: mover 2s infinite  alternate;
+    }
+    @-webkit-keyframes mover {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-40px); }
+    }
+    @keyframes mover {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-40px); }
+    }
+   
+.img-sm{
+    height: 45%;
+    width: 100%;
+    padding: 6px 33px;
+   filter: grayscale(100);
+}
+.bg-clr{
+    background-color:  #37517e;
+}
+.client{
+    
+    border-bottom: 2px solid #f3f5fa;
+}
